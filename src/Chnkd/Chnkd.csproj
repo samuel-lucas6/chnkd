@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>Incremental APIs for different approaches to stream encryption.</Description>
+        <Copyright>Copyright (c) 2025 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/chnkd</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/chnkd</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>aegis-256 chacha20-poly1305 stream chain monostream secretstream dare monocypher libsodium aead authenticated-encryption stream-encryption chunk-encryption chunked-encryption file-encryption</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.3.0" />
+    </ItemGroup>
+
+</Project>

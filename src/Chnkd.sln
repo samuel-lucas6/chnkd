@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chnkd", "Chnkd\Chnkd.csproj", "{1D6E875D-883B-447D-95D8-4CD00B71A68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chnkd.Tests", "Chnkd.Tests\Chnkd.Tests.csproj", "{97BA2031-DADE-4529-B695-F8839E440561}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D6E875D-883B-447D-95D8-4CD00B71A68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6E875D-883B-447D-95D8-4CD00B71A68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6E875D-883B-447D-95D8-4CD00B71A68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6E875D-883B-447D-95D8-4CD00B71A68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BA2031-DADE-4529-B695-F8839E440561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BA2031-DADE-4529-B695-F8839E440561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BA2031-DADE-4529-B695-F8839E440561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BA2031-DADE-4529-B695-F8839E440561}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
