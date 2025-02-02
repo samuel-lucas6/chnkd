@@ -5,7 +5,7 @@ CHNKD is a library that provides incremental APIs for different approaches to [s
 - [ ] [CHAIN](https://eprint.iacr.org/2015/189)
 - [ ] [crypto_secretstream_xchacha20poly1305](https://doc.libsodium.org/secret-key_cryptography/secretstream)
 - [x] crypto_secretstream_aegis256 POC (see [here](https://github.com/samuel-lucas6/crypto-secretstream-aegis256))
-- [ ] [monostream](https://monocypher.org/manual/aead)
+- [x] [monostream](https://monocypher.org/manual/aead)
 - [ ] [DARE](https://github.com/minio/sio)
 
 Note that there may be variants of the above using different algorithms/formats. For example, [age](https://github.com/C2SP/C2SP/blob/main/age.md), [Tink](https://developers.google.com/tink/wire-format#streaming_aead), and [Miscreant](https://github.com/miscreant/meta/wiki/STREAM) have implemented STREAM variants. There's little value in implementing every single variant, and my algorithm of choice is [AEGIS-256](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-aegis-aead) where possible.
