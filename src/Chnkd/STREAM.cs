@@ -4,6 +4,7 @@ using Geralt;
 
 namespace Chnkd;
 
+// https://eprint.iacr.org/2015/189
 public sealed class STREAM : IDisposable
 {
     public const int HeaderSize = XChaCha20Poly1305.NonceSize;

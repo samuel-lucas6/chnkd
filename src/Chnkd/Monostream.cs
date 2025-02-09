@@ -4,6 +4,7 @@ using Geralt;
 
 namespace Chnkd;
 
+// https://monocypher.org/manual/aead
 public sealed class Monostream : IDisposable
 {
     public const int HeaderSize = XChaCha20Poly1305.NonceSize;
