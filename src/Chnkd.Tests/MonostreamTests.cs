@@ -150,9 +150,9 @@ public class MonostreamTests
                     // Chunk duplication
                     Assert.ThrowsException<CryptographicException>(() => monostream.DecryptChunk(p2, c2));
                     break;
-                default:
+                case 2:
                     // Stream truncation
-                    Assert.ThrowsException<CryptographicException>(() => monostream.DecryptChunk(p3, c3, finalChunk: true));
+                    Assert.ThrowsException<CryptographicException>(() => monostream.DecryptChunk(p2, c2, finalChunk: true));
                     break;
             }
         }
